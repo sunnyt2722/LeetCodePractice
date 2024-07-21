@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LuckyNumberMatrix {
+//	1380. Lucky Numbers in a Matrix
 	public static void main(String args[]){
         LuckyNumberMatrix obj= new LuckyNumberMatrix();
         int matrix[][] = {{3,7,8},{9,11,13},{15,16,17}}; 

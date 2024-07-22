@@ -3,15 +3,15 @@ package Arrays;
 public class TowerOfHanoi {
 
 	public static void main(String[] args) {
-		towerOfHanoi(3, "Rod 1 ", "Rod 3", "Rod 2");
+		towerOfHanoi(3, 'A', 'B', 'C');
 	}
 	
-	public static void towerOfHanoi(int numberOfDisks, String fromRod, String toRod, String midRod) {
+	public static void towerOfHanoi(int numberOfDisks, char sourceRod, char destinationRod, char auxRod) {
 		if(numberOfDisks==0) {
 			return;
 		}
-		towerOfHanoi(numberOfDisks-1, fromRod, midRod, toRod);
-		System.out.println("Moving disk from "+numberOfDisks+ " from "+fromRod+" rod to "+toRod);
-		towerOfHanoi(numberOfDisks-1, midRod, toRod, fromRod);
+		towerOfHanoi(numberOfDisks-1, sourceRod, auxRod, destinationRod);
+		System.out.println("Moving disk from "+numberOfDisks+ " from "+sourceRod+" rod to "+destinationRod);
+		towerOfHanoi(numberOfDisks-1, auxRod, destinationRod, sourceRod);
 	}
 }

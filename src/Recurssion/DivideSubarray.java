@@ -1,4 +1,4 @@
-package Arrays;
+package Recurssion;
 
 public class DivideSubarray {
 

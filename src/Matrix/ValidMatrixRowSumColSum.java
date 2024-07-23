@@ -1,4 +1,4 @@
-package Arrays;
+package Matrix;
 
 public class ValidMatrixRowSumColSum {
 //	Find Valid Matrix Given Row and Column Sums

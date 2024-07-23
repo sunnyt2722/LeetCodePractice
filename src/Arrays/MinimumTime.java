@@ -6,8 +6,8 @@ import java.util.List;
 public class MinimumTime {
 //	2809. Minimum Time to Make Array Sum At Most x
 	public static void main(String[] args) {
-		List<Integer> list1 = Arrays.asList(5,3);
-		List<Integer> list2 = Arrays.asList(3,2);
+		List<Integer> list1 = Arrays.asList(1,2,3);
+		List<Integer> list2 = Arrays.asList(1,2,3);
 		System.out.println("-------- "+minimumTime(list1,list2, 4));
 	}
 

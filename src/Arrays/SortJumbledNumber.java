@@ -3,7 +3,7 @@ package Arrays;
 import java.util.Arrays;
 
 public class SortJumbledNumber {
-
+//	2191. Sort the Jumbled Numbers
 	public static void main(String[] args) {
 		int mapping[]= {8,9,4,0,2,1,3,5,7,6};
 		int nums[] = {991,338,38};
